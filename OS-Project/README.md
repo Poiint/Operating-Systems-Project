@@ -1,4 +1,4 @@
-My university project for the operating system project
+# My university project for the operating system project
 
 It is intended to simulate a ledger containing data of monetary transactions between different users. To this end they are
 the following processes are present:
@@ -6,9 +6,8 @@ the following processes are present:
 • (users.c) SO_USERS_NUM user processes that can send money to other users through a transaction
 • (nodes.c) SO_NODES_NUM node processes that process, for a fee, received transactions.
 
----
 
-Transactions \\
+## Transactions 
 A transaction is characterized by the following information:
 • transaction timestamp with nanosecond resolution (see clock_gettime(...) function)
 • sender (implicit, as it is the user who generated the transaction)
@@ -19,7 +18,7 @@ The transaction is sent by the user process that generates it to one of the node
 
 ​---
 
-Configuration \\ 
+## Configuration
 The following parameters are read at runtime, from file, from environment variables, or from stdin (at discretion
 of the students):
 • SO_USERS_NUM: Number of user processes
