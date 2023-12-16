@@ -16,8 +16,6 @@ A transaction is characterized by the following information:
 • reward, money paid by the sender to the node that processes the transaction
 The transaction is sent by the user process that generates it to one of the node processes, chosen at random.
 
-​---
-
 ## Configuration
 The following parameters are read at runtime, from file, from environment variables, or from stdin (at discretion
 of the students):
