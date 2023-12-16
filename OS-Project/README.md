@@ -8,7 +8,7 @@ the following processes are present:
 
 ---
 
-Transactions
+Transactions \\
 A transaction is characterized by the following information:
 • transaction timestamp with nanosecond resolution (see clock_gettime(...) function)
 • sender (implicit, as it is the user who generated the transaction)
@@ -19,7 +19,7 @@ The transaction is sent by the user process that generates it to one of the node
 
 ​---
 
-Configuration
+Configuration \\ 
 The following parameters are read at runtime, from file, from environment variables, or from stdin (at discretion
 of the students):
 • SO_USERS_NUM: Number of user processes
