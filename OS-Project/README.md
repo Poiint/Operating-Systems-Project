@@ -6,6 +6,8 @@ the following processes are present:
 • (users.c) SO_USERS_NUM user processes that can send money to other users through a transaction
 • (nodes.c) SO_NODES_NUM node processes that process, for a fee, received transactions.
 
+---
+
 Transactions
 A transaction is characterized by the following information:
 • transaction timestamp with nanosecond resolution (see clock_gettime(...) function)
@@ -14,7 +16,9 @@ A transaction is characterized by the following information:
 • amount of money sent
 • reward, money paid by the sender to the node that processes the transaction
 The transaction is sent by the user process that generates it to one of the node processes, chosen at random.
-​
+
+​---
+
 Configuration
 The following parameters are read at runtime, from file, from environment variables, or from stdin (at discretion
 of the students):
