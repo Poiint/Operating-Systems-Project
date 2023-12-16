@@ -1,7 +1,7 @@
 # My university project for the operating system project
 
-It is intended to simulate a ledger containing data of monetary transactions between different users. To this end they are
-the following processes are present:
+It is intended to simulate a ledger containing data of monetary transactions between different users. To this end there are
+the following processes:
 
 
 • **(master.c)** a master process that manages the simulation, the creation of other processes, etc.
