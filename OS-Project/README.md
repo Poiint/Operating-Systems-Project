@@ -76,3 +76,5 @@ in nanoseconds) of processing of a block by a node
 • **SO_HOPS (max 30 version only)**: maximum number of forwarding of a transaction to friendly nodes before the
 master I created a new node
 
+
+You can find more detail in the pdf file (italian language)
