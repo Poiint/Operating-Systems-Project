@@ -1,2 +1,3 @@
-# University-Projects
-In this repo there are some of my university's projects. Note that they may contain some italian notes
+# Operating Systems Project
+In this repo there is my Operating Systems project.
+Note that there are italian notes.
